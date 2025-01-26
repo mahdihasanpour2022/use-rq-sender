@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "react",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "outDir": "dist",
+    "moduleResolution": "node"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}

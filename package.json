@@ -1,0 +1,37 @@
+{
+  "name": "use-rq-sender",
+  "version": "1.0.0",
+  "description": "the hook for send data with axios and react query",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahdihasanpour2022/use-rq-sender.git"
+  },
+  "keywords": [
+    "react",
+    "hook"
+  ],
+  "author": "mahdihasanpour",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mahdihasanpour2022/use-rq-sender/issues"
+  },
+  "homepage": "https://github.com/mahdihasanpour2022/use-rq-sender#readme",
+  "dependencies": {
+    "@tanstack/react-query": "^5.64.2",
+    "axios": "^1.7.9",
+    "axios-auth-refresh": "^3.3.6",
+    "qs": "^6.14.0",
+    "react": "^19.0.0",
+    "universal-cookie": "^7.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.10",
+    "@types/react": "^19.0.8",
+    "typescript": "^5.7.3"
+  }
+}
